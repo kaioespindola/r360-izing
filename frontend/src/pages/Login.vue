@@ -13,12 +13,12 @@
           style="border-top: 5px solid #3E72AF; background-color: rgba(255,255,255,0.75); border-radius: 20px"
         >
           <q-card-section class="text-primary text-center">
-            <q-img
+            <!-- <q-img
               src="/izing-logo_01.png"
               spinner-color="white"
-              style="height: 120px; max-width: 300px"
+              style="height: 300px; max-width: 300px"
               class="q-mb-lg q-px-md"
-            />
+            /> -->
             <q-separator spaced />
           </q-card-section>
           <q-card-section class="text-primary">
