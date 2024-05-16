@@ -25,10 +25,13 @@ export default {
     }
   },
   beforeMount () {
-    const usuario = JSON.parse(localStorage.getItem('usuario'))
-    if (usuario?.configs?.isDark) {
-      this.$q.dark.set(usuario?.configs?.isDark)
-    }
+    // const usuario = JSON.parse(localStorage.getItem('usuario'))
+
+    this.$q.dark.set(true)
+
+    // if (usuario?.configs?.isDark) {
+    //   this.$q.dark.set(usuario?.configs?.isDark)
+    // }
     //   document.onclick = function () {
     //     this.idleSecondsCounter = 0
     //   }

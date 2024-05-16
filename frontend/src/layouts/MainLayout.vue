@@ -29,7 +29,7 @@
           <q-img
             src="/izing-logo_01.png"
             spinner-color="primary"
-            style="height: 50px; width: 50px"
+            style="height: 50px; width: 70px"
           />
         </q-btn>
 
